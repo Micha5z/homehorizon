@@ -1,7 +1,6 @@
-# Eko-zakatek
+# Home Horizon
 
-
-Contains the source code for the [Eko-zakatek](https://Eko-zakatek) homepage and is based on the source code of the [uniswap.org](https://uniswap.org) homepage ([GPL-3.0 license](https://github.com/web2app-app/app-v1/blob/main/LICENSE)).
+Contains the source code for the [home horizon](https://homehorizon.pl) homepage and is based on the source code of the [uniswap.org](https://uniswap.org) homepage ([GPL-3.0 license](https://github.com/web2app-app/app-v1/blob/main/LICENSE)).
 
 ## Development
 
