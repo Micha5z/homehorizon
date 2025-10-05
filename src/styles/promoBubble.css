@@ -1,0 +1,52 @@
+.promo-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 15px;
+    z-index: 1000;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .promo-bubble-content {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .promo-bubble-content h3 {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .promo-bubble-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .promo-bubble-close:hover {
+    color: #444;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
